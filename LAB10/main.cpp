@@ -15,7 +15,6 @@ class myString
         m_str = s;
     }
 };
-
 class ReadClass
 {
 public:
@@ -37,10 +36,13 @@ public:
             file.close();
         }
 
+        // 輸出類別數目
+        cout << classNames.size() << " Class in main.cpp"<< endl;
+
         // 輸出每個類別的名字
         for (const string& className : classNames)
         {
-            cout <<"class "<< className << endl;
+            cout << "class "<<className << endl;
         }
     }
 
